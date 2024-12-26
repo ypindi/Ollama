@@ -1,0 +1,11 @@
+# Ignore project folders
+ollama-fundamentals-main/
+swarm-writer-agents-main/
+
+# Ignore virtual environment
+venv/
+
+# Ignore Files
+ollama-fundamentals-main.zip
+swarm-writer-agents-main.zip
+Ollama Starter Pack.pdf

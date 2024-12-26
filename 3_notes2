@@ -1,0 +1,48 @@
+https://github.com/ollama/ollama/blob/main/docs/api.md
+Main docs with respect to using the REST API.
+
+Can also run Ollama from the backend using the REST API.
+Till now, we ran only with command line.
+After this, can run from remote with REST API also.
+
+Ollama is running in the background in our PC and when we access it, it is actually using the REST API
+in order to run it on the localhost:11434 Port. It is actually being served at the endpoint 11434 port
+using the REST API.
+
+PS C:\Users\YASHWANTH PINDI>
+PS C:\Users\YASHWANTH PINDI> curl http://localhost:11434/api/generate -d '{"model":"llama3.2", "prompt":"Why is the Sky Blue?"}'
+
+> >
+
+---
+
+## REST API is an endpoint that we can hit to run these models.
+
+The curl command is a command-line tool used to transfer data to or from a server using
+various protocols like HTTP, HTTPS, FTP, and more. It's widely used for testing APIs,
+downloading files, and sending HTTP requests directly from the command line.
+
+curl http://localhost:11434/api/generate -d '{"model":"llama3.2", "prompt":"Why is the Sky Blue?", "stream":false}'
+
+---
+
+chat endpoint:
+curl http://localhost:11434/api/chat -d
+'{
+"model":"llama3.2",
+"messages":
+[{
+"role":"user",
+"content":"Tell me a fun fact about Mozambique"
+}],
+"stream":false
+}'
+
+---
+
+curl http://localhost:11434/api/generate -d '{
+"model": "llama3.2",
+"prompt": "What color is the sky at different times of the day? Respond using JSON",
+"format": "json",
+"stream": false
+}'

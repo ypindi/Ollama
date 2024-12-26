@@ -1,0 +1,56 @@
+After categorizing and sorting the grocery items, I present to you the lists in alphabetical order within each category:
+
+**Beverages:**
+• Coffee
+• Orange Juice
+• Soda
+• Tea
+
+**Canned Goods:**
+None (no canned goods were found in the list)
+
+**Dairy:**
+• Cheese
+• Eggs
+• Milk
+• Yogurt
+
+**Fruits:**
+• Apples
+• Bananas
+• Strawberries
+
+**Grains:**
+• Bread
+• Cereal
+• Flour
+• Oatmeal
+• Pasta
+• Rice
+
+**Meat/Seafood:**
+• Chicken Breast
+• Ground Beef
+• Salmon
+• Shrimp
+• Sausages
+
+**Pantry:**
+• Almonds
+• Butter
+• Chocolate
+• Granola Bars
+• Honey
+• Olive Oil
+• Peanut Butter
+• Sugar
+
+**Produce:**
+• Bell Peppers
+• Broccoli
+• Carrots
+• Lettuce
+• Onions
+• Potatoes
+• Spinach
+• Tomatoes

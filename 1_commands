@@ -1,0 +1,29 @@
+ollama run llama3.2
+
+/clear
+
+/help
+/set
+/clear
+/show
+/load <model>
+/save <model>
+/bye
+/?, /help
+/? shortcuts
+
+/show info
+
+ollama list
+ollama help
+
+For Coding:
+ollama pull codegemma:2b
+ollama run codegemma:2b
+
+For images:
+llava
+Llava is a multimodel model - both texts and images.
+ollama run llava:7b
+inside llava:7b - what is in this image ./flower.png
+Then it will give you answer based on image.

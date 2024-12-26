@@ -1,0 +1,17 @@
+https://github.com/pdichone/swarm-writer-agents
+
+Swarm agents - it is a framework that will help us to create AI
+agents that will be able to delegate certain tasks to other
+agents and those will do the tasks.
+
+Here, we'll be creating an AI agents that will do what all
+the recruiters and recruitment agencies do.
+
+1. Extracting information
+2. Analyze resume
+3. Match you with different employers/positions
+4. Recommendations report for you.
+5. Contact you
+
+All using SWARM to create AI agents.
+SWARM: Coordinated AI agents for specific tasks.

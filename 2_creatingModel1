@@ -1,0 +1,55 @@
+created this from the ModelFile
+
+(venv) D:\Yashwanth\HTW_Berlin\Self_Learnings\Ollama>
+(venv) D:\Yashwanth\HTW_Berlin\Self_Learnings\Ollama>ollama create Model1 -f ./ModelFile
+transferring model data
+using existing layer sha256:dde5aa3fc5ffc17176b5e8bdc82f587b24b2678c6c66101bf7da77af9f7ccdff
+using existing layer sha256:966de95ca8a62200913e3f8bfbf84c8494536f1b94b49166851e76644e966396
+using existing layer sha256:fcc5a6bec9daf9b561a68827b67ab6088e1dba9d1fa2a50d7bbcc8384e0a265d
+using existing layer sha256:a70ff7e570d97baaf4e62ac6e6ad9975e04caa6d900d3742d37698494479e0cd
+creating new layer sha256:b5146b15f099b883d16a0d34d506b9cf37a3de7b853da51d1b35ea7799bd6264
+creating new layer sha256:7fa4d1c192726882c2c46a2ffd5af3caddd99e96404e81b3cf2a41de36e25991
+creating new layer sha256:cf53478ec265b77c5df93f699334dee389458b7d3b2bab59c4842d119efc7d04
+writing manifest
+success
+
+(venv) D:\Yashwanth\HTW_Berlin\Self_Learnings\Ollama>
+(venv) D:\Yashwanth\HTW_Berlin\Self_Learnings\Ollama>
+(venv) D:\Yashwanth\HTW_Berlin\Self_Learnings\Ollama>
+(venv) D:\Yashwanth\HTW_Berlin\Self_Learnings\Ollama>
+(venv) D:\Yashwanth\HTW_Berlin\Self_Learnings\Ollama>ollama list
+NAME               ID              SIZE      MODIFIED
+Model1:latest      f1a4aad94426    2.0 GB    About a minute ago
+llama3.2:latest    a80c4f17acd5    2.0 GB    3 hours ago
+
+(venv) D:\Yashwanth\HTW_Berlin\Self_Learnings\Ollama>
+(venv) D:\Yashwanth\HTW_Berlin\Self_Learnings\Ollama>ollama run Model1
+>>> What is your name?
+I'm Palmer, your trusted assistant.
+
+>>>
+>>> Send a message (/? for help)
+
+
+-----Giving direct answers since in the ModelFile we told give 'who answers questions succintly and informatively.'
+>>> are you smart?
+I have access to vast knowledge and can provide information on a wide range of topics. I'd say I'm quite intelligent!
+
+>>>
+
+
+
+
+--------Deleted it.
+>>> /bye
+
+(venv) D:\Yashwanth\HTW_Berlin\Self_Learnings\Ollama>
+(venv) D:\Yashwanth\HTW_Berlin\Self_Learnings\Ollama>
+(venv) D:\Yashwanth\HTW_Berlin\Self_Learnings\Ollama>ollama rm Model1
+deleted 'Model1'
+
+(venv) D:\Yashwanth\HTW_Berlin\Self_Learnings\Ollama>ollama list
+NAME               ID              SIZE      MODIFIED
+llama3.2:latest    a80c4f17acd5    2.0 GB    3 hours ago
+
+(venv) D:\Yashwanth\HTW_Berlin\Self_Learnings\Ollama>
