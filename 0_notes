@@ -1,0 +1,52 @@
+https://github.com/ollama/ollama/
+https://github.com/pdichone/ollama-fundamentals/tree/main
+https://github.com/pdichone/ollama-fundamentals/blob/main/start-1.py
+
+Ollama assits running of LLMs on your local machine.
+Open Source.
+can choose the model based on your choice.
+Has a CLI which manages the installation and execution of LLMs locally.
+Can download, run, and interact with LLMs without doing the complex
+processes.
+
+Text Generation: llama
+Code Gen: codellama
+Images and Text Gen: llava
+
+Can use Ollama through:
+
+1. CLI (command line interface)
+2. UI
+3. REST API.
+4. Ollama Python Library: tools from Python - more customization & control.
+
+Advantages:
+
+1. When using the Ollama, everything is downloaded locally. It is all ours.
+   So we have more control.
+2. Which also gives more privacy. Data doesn't go to external sources.
+3. Setting up LLM is so much easier with Ollama
+4. No need of cloud services (less costly.) So no costs
+   associated with server API calls / database storage.
+5. Latency reduction: since in local and not with OpenAI from internet.
+6. Greater customization.
+
+Features:
+
+1. Can switch between different models.
+2. One setup for interaction with all models.
+3. Extensibility: make your own LLMs.
+4. Handle your performance based on your local CPU/GPU usage.
+
+Uses:
+
+1. Development and testing: can see which LLM is best for which use case
+   (law / education / medical) - see which LLM gives best result and use it
+   without needing to setup every single system standalone.
+2. Secure applications: medical / finance - DATA CRITICAL INDUSTRIES.
+
+Models: https://ollama.com/search
+
+Also we use LANGCHAIN because it has so many wrapper
+classes for every single LLM work.
+It also gives us a lot of metadata.
